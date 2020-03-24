@@ -12,26 +12,26 @@
     justify-content: space-between;
 }
 
+.header-nav {
+    margin-left: 200px;
+}
+
 .header a, .header h1, .nav-separador{
     font-weight: 700;
     font-size: 2.25em;
-    line-height: 46px;
+    line-height: 50px;
     color: #FFFFFF;
 } 
 
 .header a {
     letter-spacing: 0.1em;
-}
+    }
 
-.header-nav:first-child{
-    display: block;
-    content: " ";
-    border-right: #FFFFFF 3px solid;
-    background: red;;
+.nav-separador {
+    margin: 5px;
 }
 
 .header-logo {
     margin-top: 50px;
-
 }
 
