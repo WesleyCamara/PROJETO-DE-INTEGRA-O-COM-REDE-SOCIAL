@@ -7,4 +7,10 @@ Textos claros #FFFFFF,
 Textos escuros e rodapé #334459
 */
 
-@import url(reset.css);
+@import url("reset.css");
+@import url("topo.css");
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFFFFF;
+}
