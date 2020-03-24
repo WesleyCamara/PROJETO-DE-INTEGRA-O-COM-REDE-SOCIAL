@@ -40,7 +40,7 @@
 
 .main-busca{
     background: #FFFFFF;
-    width: 58%;
+    max-width: 58%;
     margin: 0 auto;
     display: flex;
     height: 90px;
@@ -64,8 +64,6 @@
 .main-busca-input::placeholder {
     color: #D6D6D6;
 }
-
-
 
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
@@ -99,6 +97,7 @@ button:focus, button:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px
 }
 
 .footer p{
