@@ -56,9 +56,16 @@
     flex: 9;
     border: none;
     color: #334459;
-    font-size: 1.25em;
+    font-size: 1em;
     letter-spacing: 0.1em;
+    font-weight: bold;
 }
+
+.main-busca-input::placeholder {
+    color: #D6D6D6;
+}
+
+
 
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
@@ -70,10 +77,32 @@ textarea:focus, input:focus, select:focus {
     flex: 2;
     background: #F67A56;
     border: none;
-    border-radius: 50px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 23px;
+}
+
+button:focus, button:active {
+    outline: none;
 }
 
 .fa-search {
     color: #FFFFFF;
+    font-size: 1.25em;
+}
+
+
+/* Estilização do rodapé */
+
+.footer {
+    background: #334459;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: #FFFFFF;
+    font-weight: 700;
     font-size: 1.25em;
 }
