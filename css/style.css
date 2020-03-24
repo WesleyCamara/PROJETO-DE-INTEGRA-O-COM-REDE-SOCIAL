@@ -6,7 +6,7 @@ Base #FFF7E8 (blocos e contornos),
 Textos claros #FFFFFF,
 Textos escuros e rodapé #334459
 */
-
+@import url(media.css);
 @import url("reset.css");
 @import url("topo.css");
 
