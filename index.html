@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,22 +13,29 @@
 <body>
     <!-- Topo da página -->
     <header class="header">
-        <div class="header-logo">
-            <img src="/img/logo.png" alt="Logo">
-        </div>
+        <div class="header-container">
+            <h1>CWFV</h1>
 
-        <nav class="header-nav">
-            <a href="index.html">HOME</a>
-            <span>|</span>
-            <a href="sobre.html">SOBRE</a>
-        </nav>
+            <nav class="header-nav">
+
+                <a href="index.html">HOME</a>
+                <span class="nav-separador">|</span>
+                <a href="sobre.html">SOBRE</a>
+            </nav>
+
+            <div class="header-logo">
+                <img src="/img/logo.png" alt="Logo">
+            </div>
+        </div>
     </header>
 
     <main>
         <!-- Caixa de busca -->
-        <div id="busca">
-            <input type="text" id="busca" placeholder="Digite uma # para buscar" />
-            <i class="fas fa-search" id="img-busca"></i>
+        <div class="main-busca" id="busca">
+            <input type="text" id="busca" class="main-busca-input" placeholder="Digite sua pesquisa por #" autofocus/>
+            <button type="submit" class="main-busca-botao">
+                <i class="fas fa-search" id="img-busca"></i>
+            </button>
         </div>
 
         <!--Área de visualização das 10 ultimas publicações-->
@@ -244,9 +252,9 @@
     </main>
 
     <!-- Rodapé-->
-    <footer>
-        <p>Texto do rodapé</p>
+    <footer class="footer">
+        <p>Produzido por CWVF. Todos os Direitos Reservados</p>
     </footer>
-    
+
 </body>
 </html>

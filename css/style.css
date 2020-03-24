@@ -10,6 +10,9 @@ Textos escuros e rodapé #334459
 @import url("reset.css");
 @import url("topo.css");
 
+/*colocar os imports indiviaduais antes do mobile */
+@import url("mobile.css");
+
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #FFFFFF;
