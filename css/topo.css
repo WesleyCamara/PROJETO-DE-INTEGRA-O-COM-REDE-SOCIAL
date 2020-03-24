@@ -1,0 +1,18 @@
+
+.header {
+    background-color: #F67A56;
+    height: 400px;
+}
+
+.header-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 26px;
+}
+
+.header a, .header h1, .nav-separador{
+    font-weight: bold;
+    color: #FFFFFF;
+} 
+
