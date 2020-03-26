@@ -50,6 +50,12 @@
         width: 90%;
     }
 
+    .mensagem a{
+        margin: auto 100px;
+        padding-right: 10px;
+        padding-bottom: 50px ;
+    }
+
     .frame-footer{
         height: 14vh;
     }
@@ -86,6 +92,7 @@
         height: 42vh;
     }
 
+
     .frame-footer{
         height: 16vh;
     }
@@ -113,7 +120,6 @@
     .header-logo {
         max-width: 50%;
     }
-
     
     .frame-topo{
         height: 30vh;
