@@ -36,3 +36,33 @@
     font-size: 1.125em;
     color: blue;
 }
+
+.media-mensagem{
+    display: flex;
+    flex-direction: column;
+    margin: 55px -26%;
+    max-width: 628px;
+    max-height: 644px;
+}
+.mensagem {
+    padding-bottom: 50px ;
+}
+.media-img a {
+    padding-top: 10px;
+    margin-left: 47px;
+}
+.media-mensagem a{
+    margin-bottom: -20px;
+    margin-right: 410px;
+}
+
+.media-mensagem a:hover {
+    color: rgb(62, 109, 252);
+    transition: all .3s;
+}
+
+.media-img a:hover{
+    color: rgb(62, 109, 252);
+    transition: all .3s;
+}
+
