@@ -24,7 +24,7 @@
 .info-usuario p{
     margin: 0 2px;
     color: #75889D;
-    font-size: 1,125em;
+    font-size: 1.125em;
 }
 .media-img{
     display: initial;
@@ -37,24 +37,16 @@
     color: blue;
 }
 
-.media-mensagem{
-    display: flex;
-    flex-direction: column;
-    margin: 55px -26%;
-    max-width: 628px;
-    max-height: 644px;
+
+
+
+@media only screen and (min-width: 426px) {
+    .media-mensagem{
+        margin-left: 35.5px;
+        margin-right: 35.5px;
+    }
 }
-.mensagem {
-    padding-bottom: 50px ;
-}
-.media-img a {
-    padding-top: 10px;
-    margin-left: 47px;
-}
-.media-mensagem a{
-    margin-bottom: -20px;
-    margin-right: 410px;
-}
+
 
 .media-mensagem a:hover {
     color: rgb(62, 109, 252);
@@ -66,3 +58,7 @@
     transition: all .3s;
 }
 
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}

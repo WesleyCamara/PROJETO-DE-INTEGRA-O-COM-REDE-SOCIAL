@@ -1,9 +1,6 @@
 .estilo-geral{
     font-family: 'Nunito', sans-serif;
-    font-size: 10px;
-    background-color: #FFFFFF;
-    box-sizing: border-box;
-
+    font-size: 16px;
 }
 
 .estilo-geral a{
@@ -12,81 +9,80 @@
 
 /*parte sobre*/
 
+.container-sobre {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.explicação-proj{
+    max-width: 560px;
+    margin-top: 360px;
+}
+
+.explicação-proj p {
+    max-width: 560px;
+}
+
 .explicação-proj h1{
     font-size: 3.5rem;
     letter-spacing: 3px;
     text-align: center;
     color: #334459;
-    position: relative;
-    padding-bottom: 4rem;
+    font-weight: 700;;
 }
 
 .explicação-proj p{
-    font-size: 1.5rem;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.25em;
     color: #334459;
     text-align: justify;
 }
 
 .img-sobre{
-    transform: scale(0.4);
-    margin: -10rem auto;
+    max-width: 469px;
+    margin-left: 37px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 1024px){
     .explicação-proj{
-        margin: 5rem auto;    
+        max-width: 560px;
+        margin-top: 50px;
     }
 
     .img-sobre{
-        transform: scale(0.7);
-        display: block;
-        margin-left: auto;
-        margin-right: auto;  
+        max-width: 469px;
+        margin-top: 37px;
     }
-
 }
 
-@media screen and (min-width: 1300px){
-    .container{
-        padding-top: 5rem;
-        background-color: #FFFFFF;
-        margin-left: 10%;
-    }
-
-
-    .explicação-proj{
-        justify-content: flex-start;
-        margin-top: 10rem;       
-      }
-
-    .explicação-proj h1{
-        text-align: start;
-        margin-left: 5rem;
-    }
-
-
-    .texto-sobre{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 5rem;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-    }
-
+@media screen and (max-width: 425px){
     .img-sobre{
-        position: relative;
-        top: 10%;       
-        right: 10%;
-        max-width: 496px;
-        height: 553px;
-        align-items: center;
+        max-width: 80%;
+        margin-top: 160px;
     }
+}
 
+@media screen and (max-width: 425px){
+    .img-sobre{
+        max-width: 80%;
+        margin-top: 210px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .img-sobre{
+        max-width: 80%;
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .img-sobre{
+        max-width: 80%;
+        margin-top: 330px;
+    }
 }
 
 /*parte equipe*/
@@ -99,7 +95,7 @@
 
 .título{
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 3.5em;
     letter-spacing: 3px;
     text-align: center;
     color: #334459;
@@ -107,10 +103,7 @@
     padding-bottom: 4rem;
 }
 
-.img-sobre{
-    max-width: 50rem;
 
-}
 
 .explicação-proj{
     top: 864px;
@@ -169,7 +162,7 @@
 }
 
 .introducao{
-    font-size: 1.4rem;
+    font-size: 1em;
     margin: 1.5rem 1rem;
     text-align: center;
     color: #334459;
