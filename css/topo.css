@@ -17,16 +17,16 @@
     margin-left: 200px;
 }
 
-.header a, .header h1, .nav-separador{
+.header a, .header h1, .nav-separador {
     font-weight: 700;
     font-size: 2.25em;
     line-height: 50px;
     color: #FFFFFF;
-} 
+}
 
 .header a {
     letter-spacing: 0.1em;
-    }
+}
 
 .nav-separador {
     margin: 5px;
@@ -38,7 +38,7 @@
 
 /* Estilização da caixa de busca */
 
-.main-busca{
+.main-busca {
     background: #FFFFFF;
     width: 58%;
     margin: 0 auto;
@@ -48,11 +48,11 @@
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 48px;
     position: relative;
-    top: -45px;   
+    top: -45px;
     z-index: 50;
 }
 
-.main-busca-input{
+.main-busca-input {
     flex: 9;
     border: none;
     color: #334459;
@@ -65,15 +65,13 @@
     color: #D6D6D6;
 }
 
-
-
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
-} 
+}
 
-.main-busca-botao{
+.main-busca-botao {
     flex: 2;
     background: #F67A56;
     border: none;
@@ -90,7 +88,6 @@ button:focus, button:active {
     font-size: 1.25em;
 }
 
-
 /* Estilização do rodapé */
 
 .footer {
@@ -101,23 +98,21 @@ button:focus, button:active {
     justify-content: center;
 }
 
-.footer p{
+.footer p {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 1.25em;
 }
 
-
 /* Estilização do frame header */
 
-.frame-topo{
+.frame-topo {
     width: 100%;
     height: 400px;
     overflow: hidden;
-
 }
 
-.frame-footer{
+.frame-footer {
     width: 100%;
     height: 30vh;
     overflow: hidden;

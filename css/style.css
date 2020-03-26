@@ -6,14 +6,14 @@ Base #FFF7E8 (blocos e contornos),
 Textos claros #FFFFFF,
 Textos escuros e rodapé #334459
 */
+
 @import url("media.css");
 @import url("reset.css");
 @import url("topo.css");
 @import url("sobre.css");
-
 /*colocar os imports indiviaduais antes do mobile */
-@import url("mobile.css");
 
+@import url("mobile.css");
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #FFFFFF;

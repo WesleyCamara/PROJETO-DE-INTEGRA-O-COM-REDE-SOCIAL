@@ -1,70 +1,61 @@
 /* parte responsiva do mobile */
+
 /* topo */
+
 @media only screen and (max-width: 1300px) {
     .header {
         height: 400px;
     }
-    
     .header-container {
         padding: 20px;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
     .header-logo {
         margin-top: 10px;
     }
-
-    .main-busca{
+    .main-busca {
         max-width: 70%;
         padding: 17px;
         height: 80px;
     }
-
-    .frame-footer{
+    .frame-footer {
         height: 18vh;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .header{
+    .header {
         height: 100vh;
     }
     .header-container {
         flex-direction: column;
         align-items: center;
     }
-    .header-nav{
+    .header-nav {
         margin: 0;
     }
-
     .header-logo {
         max-width: 50%;
     }
-
-    .frame-topo{
+    .frame-topo {
         height: 45vh;
     }
-
-    .main-busca{
+    .main-busca {
         width: 90%;
     }
-
-    .mensagem a{
+    .mensagem a {
         margin: auto 100px;
         padding-right: 10px;
-        padding-bottom: 50px ;
+        padding-bottom: 50px;
     }
-
-    .frame-footer{
+    .frame-footer {
         height: 14vh;
     }
-
 }
 
-
 @media only screen and (max-width: 430px) {
-    .header{
+    .header {
         height: 100vh;
     }
     .header-container {
@@ -73,59 +64,49 @@
         padding: 0;
         padding-top: 5px;
     }
-    .header-nav{
+    .header-nav {
         margin: 0;
     }
-
     .header-logo {
         max-width: 90%;
     }
-
-    .main-busca{
+    .main-busca {
         max-width: 90%;
         padding: 15px;
         height: 60px;
-        top: -30px;   
+        top: -30px;
     }
-
-    .frame-topo{
+    .frame-topo {
         height: 42vh;
     }
-
-
-    .frame-footer{
+    .frame-footer {
         height: 16vh;
     }
 }
 
 @media only screen and (max-width: 330px) {
-    .header-nav{
+    .header-nav {
         font-size: 0.8em;
     }
-
-    .header{
+    .header {
         height: 100vh;
     }
-    .main-busca{
+    .main-busca {
         padding: 10px;
     }
-    .main-busca-input{
+    .main-busca-input {
         letter-spacing: 0;
     }
-
-    .main-busca-botao{
+    .main-busca-botao {
         padding: 10px;
     }
-
     .header-logo {
         max-width: 50%;
     }
-    
-    .frame-topo{
+    .frame-topo {
         height: 30vh;
     }
 }
-
 
 /* rodapé */
 
@@ -140,10 +121,10 @@
         max-width: 100%;
         height: 130px;
     }
-
     .footer p {
         display: inline-block;
         text-align: center;
-        font-size: 1em;;
+        font-size: 1em;
+        ;
     }
 }

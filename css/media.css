@@ -1,4 +1,4 @@
-.media-post{
+.media-post {
     display: flex;
     flex-wrap: wrap;
     max-width: 720px;
@@ -7,53 +7,55 @@
     margin: 10px auto;
     min-width: 260px;
 }
-.media-info{
+
+.media-info {
     display: flex;
     flex-wrap: wrap;
 }
-.img-perfil{
+
+.img-perfil {
     max-width: 64px;
     margin: 5px;
 }
-.info-usuario, .info-usuario h3{
+
+.info-usuario, .info-usuario h3 {
     display: flex;
     flex-wrap: wrap;
     align-self: flex-start;
     margin: 0 5px;
 }
-.info-usuario p{
+
+.info-usuario p {
     margin: 0 2px;
     color: #75889D;
     font-size: 1.125em;
 }
-.media-img{
+
+.media-img {
     display: initial;
     margin: 5px auto 30px auto;
     max-width: 647px;
 }
-.media-post a{
+
+.media-post a {
     text-decoration: none;
     font-size: 1.125em;
     color: blue;
 }
 
-
-
-
 @media only screen and (min-width: 426px) {
-    .media-mensagem{
+    .media-mensagem {
         margin-left: 35.5px;
         margin-right: 35.5px;
     }
 }
-
 
 .media-mensagem a:hover {
     color: rgb(62, 109, 252);
     transition: all .3s;
 }
 
-.media-img a:hover{
+.media-img a:hover {
     color: rgb(62, 109, 252);
     transition: all .3s;
 }
