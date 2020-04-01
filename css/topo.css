@@ -117,3 +117,25 @@ button:focus, button:active {
     height: 30vh;
     overflow: hidden;
 }
+
+/* ----------------------------------------------------------------------------------------------------------
+Mensagem de erro que aparecerá quando o usuário tentar pesquisar sem digitar texto
+------------------------------------------------------------------------------------------------------------- */
+.mensagem-erro {
+    display: none;
+}
+
+.mensagem-erro.ativo{
+    display: block;
+    background: #F8D7DA;
+    max-width: 58%;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.25em;
+    color: #721c24;
+    border: #f5c6cb 1px solid;
+    border-radius: 10px;
+    margin-top: -30px;
+}

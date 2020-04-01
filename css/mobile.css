@@ -108,6 +108,15 @@
     }
 }
 
+
+@media only screen and (max-width: 430px) {
+    .mensagem-erro.ativo{
+        max-width: 95%;
+        font-size: 1em;
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+}
 /* rodapé */
 
 @media only screen and (max-width: 770px) {
