@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/935e9b3ce7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    
     <title>Home</title>
 </head>
 
@@ -18,11 +19,15 @@
     <!-- Conteudo principal -->
     <main>
         <!-- Caixa de busca -->
-        <div class="main-busca" id="busca">
-            <input type="text" id="busca" class="main-busca-input" placeholder="Digite sua pesquisa por #" autofocus />
-            <button type="submit" class="main-busca-botao">
+        <form class="main-busca" id="busca" onsubmit=pesquisar(event) action="index.html" method="GET">
+            <input type="text" maxlength="140" id="input-busca" onkeyup=valida(event) class="main-busca-input" placeholder="Digite sua pesquisa sem o #" autofocus />
+            <button type="submit" class="main-busca-botao" >
                 <i class="fas fa-search" id="img-busca"></i>
             </button>
+        </form>
+
+        <div class="mensagem-erro">
+            <p>Digite um texto para pesquisa</p>
         </div>
 
         <!--Área de visualização das 10 ultimas postagens-->
@@ -422,7 +427,7 @@
     <div class="rodape"></div>
     <object class="frame-footer" type="text/html" data="footer.html"></object>
     </div>
-
+    <script src="./js/script.js"></script>
 
 </body>
 
