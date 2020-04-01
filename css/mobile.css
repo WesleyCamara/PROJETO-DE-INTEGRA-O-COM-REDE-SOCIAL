@@ -110,10 +110,11 @@
 
 
 @media only screen and (max-width: 430px) {
-    .mensagem-erro{
+    .mensagem-erro.ativo{
         max-width: 95%;
         font-size: 1em;
-        margin-top: initial;
+        margin-top: -15px;
+        margin-bottom: 15px;
     }
 }
 /* rodapé */
