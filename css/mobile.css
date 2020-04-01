@@ -97,6 +97,9 @@
     .main-busca-input {
         letter-spacing: 0;
     }
+    .main-busca-input::placeholder {
+        font-size: 0.95em;
+    }
     .main-busca-botao {
         padding: 10px;
     }
@@ -114,15 +117,15 @@
     }
 }
 
-
 @media only screen and (max-width: 430px) {
-    .mensagem-erro.ativo{
+    .mensagem-erro.ativo {
         max-width: 95%;
         font-size: 1em;
         margin-top: -15px;
         margin-bottom: 15px;
     }
 }
+
 /* rodapé */
 
 @media only screen and (max-width: 770px) {
