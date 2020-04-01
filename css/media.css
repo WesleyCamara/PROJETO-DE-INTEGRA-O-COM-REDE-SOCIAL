@@ -1,10 +1,10 @@
 .media-post {
     display: flex;
     flex-wrap: wrap;
-    max-width: 720px;
-    max-height: 644px;
+    max-width: 752px;
+    max-height: 100%;
     border: 1px solid #E8EEF1;
-    margin: 10px auto;
+    margin: 1.125em auto;
     min-width: 260px;
 }
 
@@ -63,4 +63,25 @@
 main {
     padding-left: 10px;
     padding-right: 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.gallery img{
+    max-width: 150px;
+    padding: 5px;
+    transition: 1s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 769px) {
+    .gallery img{
+        max-width: 120px;
+    }
 }
