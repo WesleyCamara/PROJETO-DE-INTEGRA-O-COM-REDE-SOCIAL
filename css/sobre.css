@@ -32,7 +32,8 @@
     text-align: center;
     color: #334459;
     font-weight: 700;
-    ;
+    margin: 1rem 0;
+    
 }
 
 .explicação-proj p {
@@ -74,7 +75,7 @@
 @media screen and (max-width: 375px) {
     .img-sobre {
         max-width: 80%;
-        margin-top: 250px;
+        margin-top: 270px;
     }
 }
 
@@ -116,14 +117,15 @@
 }
 
 .card {
-    width: 22rem;
+    width: 18rem;
     background-color: #ebeef8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: .5rem .4rem;
+    margin: .5rem;
     box-shadow: .5rem .5rem 3rem rgba(0, 0, 0, 0.4);
+    
 }
 
 .card:hover {
@@ -148,23 +150,22 @@
 }
 
 .card h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #334459;
     margin: 2rem 0;
 }
 
 .introducao {
     font-size: 1em;
-    margin: 1.5rem 1rem;
+    margin: 1rem 1rem;
     text-align: center;
     color: #334459;
 }
 
 .card .btn {
-    padding: 1rem 2.5rem;
+    padding: .8rem 2rem;
     background-color: #F67A56;
     border-radius: 2rem;
-    margin: 1rem 0;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 1.4rem;
@@ -209,6 +210,6 @@
         align-items: flex-start;
     }
     .card {
-        margin: .5rem;
+        margin: .7rem;
     }
 }
