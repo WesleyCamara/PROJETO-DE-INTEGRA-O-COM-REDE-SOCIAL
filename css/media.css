@@ -43,10 +43,35 @@
     color: blue;
 }
 
+/* --Animação do scroll dos textos*/
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="rigth"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="down"] {
+    transform: translate3d(0, 100px, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
 @media only screen and (min-width: 426px) {
     .media-mensagem {
         margin-left: 35.5px;
         margin-right: 35.5px;
+        margin-bottom: 15px;;
     }
 }
 
