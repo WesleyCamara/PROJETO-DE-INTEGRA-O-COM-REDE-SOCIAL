@@ -108,6 +108,9 @@ main {
 }
 
 @media only screen and (max-width: 769px) {
+    .media-mensagem{
+        margin-left: 15px;
+    }
     .gallery img{
         max-width: 120px;
     }
