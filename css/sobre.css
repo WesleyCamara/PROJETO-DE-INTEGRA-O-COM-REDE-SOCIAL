@@ -169,7 +169,7 @@
 
 .mini-card .btn:hover {
     transform: translateY(-2px);
-    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, 0.2);
+    box-shadow: .4rem .4rem 0 #334459;
 }
 
 
@@ -245,25 +245,8 @@
     color: #334459;
 }
 
-.card .btn {
-    padding: .8rem 2rem;
-    background-color: #F67A56;
-    border-radius: 2rem;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-size: 1.4rem;
-    transition: all .5s;
-}
 
-.card .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, 0.2);
-}
 
-.card .btn:active {
-    transform: translateY(0);
-    box-shadow: none;
-}
 
 .redes-sociais {
     width: 100%;
